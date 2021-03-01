@@ -1,4 +1,11 @@
 #navbar
-  a(href="#home") Home
-  a(href="#news") News
-  a(href="#contact") Contact
+  a(id="logo" href="/")
+  a(href="/dashboard") Dashboard
+  button(class="dropdown-btn") Channels
+    i(class="fa fa-caret-down")
+  div(class="dropdown-container")
+    a(href="#") #something
+    a(href="#") #somethingelse
+    a(href="#") #anotherone
+  a(href="/about") About
+script(type="module" src="js/navbar.js")
